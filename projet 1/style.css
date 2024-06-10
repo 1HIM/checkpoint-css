@@ -1,0 +1,77 @@
+/* Basic Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body styling */
+body {
+    font-family: 'Trebuchet MS', sans-serif;
+    line-height: 1.6;
+    background-color: #f2e9e1;
+    color: #ef0808;
+    padding: 20px;
+    background: url('planet\ prison.jpg') no-repeat center center fixed;
+    background-size: cover;
+}
+
+
+nav {
+    background: #ffcc00;
+    color: #000;
+    padding: 10px 0;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: #000;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav ul li a:hover {
+    color: #fff;
+}
+
+
+h1 {
+    margin-top: 20px;
+    font-size: 2.5em;
+    color: #e60012;
+    text-align: center;
+    text-shadow: 2px 2px #ffcc00;
+}
+
+
+p {
+    margin: 20px 0;
+    font-size: 1.2em;
+    text-shadow: 1px 1px #ffcc00;
+}
+
+
+strong {
+    display: block;
+    margin-top: 20px;
+    font-size: 1.4em;
+    text-align: center;
+    color: #e60012;
+    text-shadow: 1px 1px #ffcc00;
+}
+
+ 
+i {
+    color: #e60012;
+    text-shadow: 1px 1px #ffcc00;
+}
